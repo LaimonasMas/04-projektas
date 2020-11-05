@@ -37,3 +37,12 @@ body {
                     font-size: 12px;
                     text-decoration: underline;
                 }
+        #fdiv {
+            display: inline-block;
+            position: absolute;
+            background-color: white;
+            width: 385px;
+            height: 414px;
+            margin-top: 114px;
+            margin-left: calc( (100% - 127px) / 2 );
+        }
