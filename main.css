@@ -3,20 +3,37 @@ body {
     height: 650px;
     margin: 8px;
 }
-body > img {
-    display: inline-block;
-    position: absolute;
-    height: 600px;
-    width: 800px;
-    margin-left: calc( (100% - 800px) / 2 );
-    margin-top: 25px;
+    main > img {
+        display: inline-block;
+        position: absolute;
+        height: 600px;
+        width: 800px;
+        margin-left: calc( (100% - 800px) / 2 );
+        margin-top: 25px;
 }
-div > img {
-    display: inline-block;
-    position: absolute;
-    width: 261px;
-    height: 374px;
-    margin-top: 134px;
-    margin-left: 230px;
-    
+        div > img {
+            display: inline-block;
+            position: absolute;
+            width: 261px;
+            height: 374px;
+            margin-top: 134px;
+            margin-left: calc( (100% - 650px) / 2 );
 }
+                h1 {
+                    margin-left: calc( (100% - 570px) / 2 );
+                    margin-top: 170px;
+                    position: absolute;
+                    color: white;
+                    font-family: arial;
+                    font-weight: lighter;
+                }
+                p {
+                    margin-left: calc( (100% - 570px) / 2 );
+                    margin-top: 480px;
+                    position: absolute;
+                    color: white;
+                    font-family: arial;
+                    font-weight: lighter;
+                    font-size: 12px;
+                    text-decoration: underline;
+                }
