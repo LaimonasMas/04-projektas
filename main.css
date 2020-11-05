@@ -23,18 +23,19 @@ body {
                     margin-left: calc( (100% - 570px) / 2 );
                     margin-top: 170px;
                     position: absolute;
-                    color: white;
+                    color: #E2FFFF;
                     font-family: arial;
                     font-weight: lighter;
                 }
                 p {
                     margin-left: calc( (100% - 570px) / 2 );
-                    margin-top: 480px;
+                    margin-top: 470px;
                     position: absolute;
-                    color: white;
+                    color: #EACAFF;
                     font-family: arial;
                     font-weight: lighter;
-                    font-size: 12px;
+                    font-size: 11.5px;
+                    letter-spacing: 0.3px;
                     text-decoration: underline;
                 }
         #fdiv {
