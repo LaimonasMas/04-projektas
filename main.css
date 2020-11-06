@@ -51,6 +51,7 @@ body {
                 display: block;
                 
                 margin: 58px;
+                margin-bottom: 35px;
                 
             }
                 label {
@@ -90,6 +91,42 @@ body {
                 font-weight: lighter;
                 
             }
-            a{
+            p > a {
                 color: #EACAFF;
+            }
+            h1 > a {
+                color: #E2FFFF;
+            }
+            nav {
+                display: inline-block;
+                margin-left: calc( (100% - 270px) / 2 );
+            }
+            
+            nav > a {
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+            }
+            nav > a:nth-of-type(1) {
+                background-color: #0164DB;
+                padding: 7px;
+                padding-left: 40px;
+                padding-right: 40px;
+                text-decoration: none;
+                border-radius: 50px;
+                font-size: 12px;
+                color: white;
+            }
+            nav > a:nth-of-type(2) {
+                font-size: 12px;
+                margin-left: 15px;
+            }
+            nav > a:nth-of-type(3) {
+                background-color: #ffffff;
+                padding: 7px;
+                padding-right: 40px;
+                padding-left: 0;
+                text-decoration: none;
+                font-weight: bolder;
+                font-size: 12px;
+                color: #0164DB;
             }
