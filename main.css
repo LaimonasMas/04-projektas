@@ -1,5 +1,5 @@
 body {
-    background-color: brown;
+    /* background-color: brown; */
     height: 650px;
     margin: 8px;
 }
@@ -41,9 +41,26 @@ body {
         #fdiv {
             display: inline-block;
             position: absolute;
-            background-color: white;
+            background-color: #ffffff;
             width: 385px;
             height: 414px;
             margin-top: 114px;
             margin-left: calc( (100% - 127px) / 2 );
         }
+            form {
+                display: block;
+                background-color: yellow;
+                margin: 58px;
+            }
+                label {
+                    display: block;
+                    color: #C2C2C2;
+                    background-color: violet;
+                }
+                input {
+                    display: block;
+                    border: none;
+                    border-bottom: 1px solid;
+                    color: #F1F1F1;
+                    background-color: yellowgreen;
+                }
