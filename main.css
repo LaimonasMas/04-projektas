@@ -74,6 +74,7 @@ body {
                     color: #696969;
                     
                 }
-                ::input-placeholder:nth-child(4) {
-                    font-weight: bolder;
+                .dots::placeholder {
+                    letter-spacing: 2px;
+                    font-weight: 900;
                 }
