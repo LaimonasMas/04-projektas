@@ -65,6 +65,7 @@ body {
                 }
                 input {
                     display: block;
+                    width: 250px;
                     border: none;
                     border-bottom: 1px solid;
                     color: #F1F1F1;
