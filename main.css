@@ -49,18 +49,31 @@ body {
         }
             form {
                 display: block;
-                background-color: yellow;
+                
                 margin: 58px;
             }
                 label {
                     display: block;
                     color: #C2C2C2;
-                    background-color: violet;
+                    text-transform: uppercase;
+                    font-size: 10px;
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    margin-top: 30px;
+                   
                 }
                 input {
                     display: block;
                     border: none;
                     border-bottom: 1px solid;
                     color: #F1F1F1;
-                    background-color: yellowgreen;
+                    padding: 5px;
+                    padding-left: 0;
+                }
+                ::placeholder {
+                    font-size: 11px;
+                    color: #696969;
+                    
+                }
+                ::input-placeholder:nth-child(4) {
+                    font-weight: bolder;
                 }
